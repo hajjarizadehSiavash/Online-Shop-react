@@ -52,17 +52,17 @@ const products = [
 
 function App() {
   const [cart, setCart] = useState(() => {
-  const savedCart = localStorage.getItem("cart");
-  if (!savedCart) return [];
+    const savedCart = localStorage.getItem("cart");
+    if (!savedCart) return [];
 
-  try {
-    const parsedCart = JSON.parse(savedCart);
-    return Array.isArray(parsedCart) ? parsedCart : [];
-  } catch (error) {
-    console.error("Failed to parse cart from localStorage", error);
-    return [];
-  }
-});
+    try {
+      const parsedCart = JSON.parse(savedCart);
+      return Array.isArray(parsedCart) ? parsedCart : [];
+    } catch (error) {
+      console.error("Failed to parse cart from localStorage", error);
+      return [];
+    }
+  });
 
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("All");
@@ -150,16 +150,16 @@ function App() {
       )}
 
       <header className="app-header">
-  <div className="logo">
-    <div className="logo-mark">O</div>
-    <span className="logo-text">Online Shop</span>
-  </div>
+        <div className="logo">
+          <div className="logo-mark">O</div>
+          <span className="logo-text">Online Shop</span>
+        </div>
 
-  <div className="cart-info">
-    <span className="cart-label">Cart</span>
-    <span className="cart-count-badge">{cartCount}</span>
-  </div>
-</header>
+        <div className="cart-info">
+          <span className="cart-label">Cart</span>
+          <span className="cart-count-badge">{cartCount}</span>
+        </div>
+      </header>
 
       <main>
         <section className="products-section">
