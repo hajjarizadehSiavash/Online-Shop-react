@@ -137,8 +137,6 @@ https://online-shop-react-five.vercel.app/
 📸 Screenshot
 <img width="1295" height="1030" alt="online-shop-screenshot" src="https://github.com/user-attachments/assets/748cfc34-b52e-4ac6-bc15-4fda162fb612" />
 
-(You can add screenshots here later.)
-
 👤 Developer
 
 Siavash Hajjari Zadeh
