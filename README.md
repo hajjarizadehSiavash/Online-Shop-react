@@ -127,6 +127,11 @@ npm run dev
 
 Project runs at:
 👉 http://localhost:5173
+🌐 **Live Demo (Vercel Deployment)**
+https://online-shop-react-five.vercel.app/
+
+
+
 
 📸 Screenshots
 
