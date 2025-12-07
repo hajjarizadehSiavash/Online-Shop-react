@@ -1,16 +1,137 @@
-# React + Vite
+🛒 Online Shop – React Projekt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+(DE + EN Version)
 
-Currently, two official plugins are available:
+🇩🇪 Deutsch – Projektbeschreibung
+🛍️ Moderner Online-Shop mit React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dieses Projekt ist ein moderner und benutzerfreundlicher Online-Shop, der mit React und Vite entwickelt wurde.
+Der Shop enthält alle wichtigen Funktionen eines kleinen E-Commerce-Systems und eignet sich perfekt als Portfolio-Projekt für Frontend-Entwicklung.
 
-## React Compiler
+🚀 Funktionen
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔍 Produktsuche (Live-Suche)
 
-## Expanding the ESLint configuration
+🏷️ Kategoriefilter (Audio, Wearables, Accessories)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛒 Warenkorb mit Zähler
+
+➕/➖ Menge erhöhen und verringern
+
+❌ Produkte aus dem Warenkorb entfernen
+
+🧹 Warenkorb komplett leeren
+
+🖼️ Großansicht (Modal) beim Klicken auf das Produktbild
+
+💾 Automatisches Speichern des Warenkorbs über LocalStorage
+
+🎨 Modernes und sauberes UI-Design
+
+🛠️ Technologien
+
+React (Hooks: useState, useEffect)
+
+Vite
+
+JavaScript (ES6)
+
+CSS
+
+LocalStorage API
+
+📂 Projektstruktur
+src/
+ ├─ components/
+ │   ├─ ProductCart.jsx
+ │   ├─ CartSection.jsx
+ │   └─ CartItem.jsx
+ ├─ App.jsx
+ ├─ App.css
+ ├─ main.jsx
+public/
+ ├─ favicon/
+ └─ products/
+
+▶️ Installation & Start
+npm install
+npm run dev
+
+
+Projekt läuft unter:
+👉 http://localhost:5173
+
+📸 Screenshots
+
+(Hier können später Screenshots hinzugefügt werden.)
+
+👤 Entwickler
+
+Siavash Hajjarizadeh
+
+🇬🇧 English – Project Description
+🛍️ Modern Online Shop built with React
+
+This project is a modern, user-friendly online shop developed with React and Vite.
+It includes all essential e-commerce features and is ideal as a professional frontend portfolio project.
+
+🚀 Features
+
+🔍 Product search (live search)
+
+🏷️ Category filter (Audio, Wearables, Accessories)
+
+🛒 Cart with item counter
+
+➕/➖ Increase and decrease product quantity
+
+❌ Remove items from cart
+
+🧹 Clear entire cart
+
+🖼️ Image preview modal
+
+💾 Cart persists using LocalStorage
+
+🎨 Modern, clean UI design
+
+🛠️ Technologies
+
+React (useState, useEffect)
+
+Vite
+
+JavaScript (ES6)
+
+CSS
+
+LocalStorage API
+
+📂 Project Structure
+src/
+ ├─ components/
+ │   ├─ ProductCart.jsx
+ │   ├─ CartSection.jsx
+ │   └─ CartItem.jsx
+ ├─ App.jsx
+ ├─ App.css
+ ├─ main.jsx
+public/
+ ├─ favicon/
+ └─ products/
+
+▶️ Install & Run
+npm install
+npm run dev
+
+
+Project runs at:
+👉 http://localhost:5173
+
+📸 Screenshots
+
+(You can add screenshots here later.)
+
+👤 Developer
+
+Siavash Hajjari Zadeh
