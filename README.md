@@ -20,6 +20,7 @@ Der Shop enthält alle wichtigen Funktionen eines kleinen E-Commerce-Systems und
 
 ❌ Produkte aus dem Warenkorb entfernen
 
+
 🧹 Warenkorb komplett leeren
 
 🖼️ Großansicht (Modal) beim Klicken auf das Produktbild
@@ -133,7 +134,8 @@ https://online-shop-react-five.vercel.app/
 
 
 
-📸 Screenshots
+📸 Screenshot
+<img width="1295" height="1030" alt="online-shop-screenshot" src="https://github.com/user-attachments/assets/748cfc34-b52e-4ac6-bc15-4fda162fb612" />
 
 (You can add screenshots here later.)
 
